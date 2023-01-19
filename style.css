@@ -33,6 +33,7 @@ h1 {
     color: rgb(119, 119, 119) !important;
 }
 h3{
+    font-size: large !important;
     line-height: 4;
     color: #626263 !important; 
     font-family: "ubuntu",sans-serif;
@@ -228,4 +229,9 @@ h3{
     color: #626263;
     font-weight: 300;
     line-height: 2.5;
+    font-size: 13px;
 }
+.scroll{
+    padding-bottom: 20px;
+}
+
