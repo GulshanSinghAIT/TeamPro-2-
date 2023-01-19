@@ -1,0 +1,211 @@
+.body {
+    margin: 0;
+}
+
+.header {
+    background-image: url("bg-header-desktop.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    color: rgb(99, 101, 101);
+    padding-bottom: 60px;
+    
+}
+
+.mid {
+    padding-top: 70px;
+    font-family: 'ubuntu', sans-serif;
+    line-height: 2;
+}
+
+.logo {
+    padding-top: 160px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+h1 {
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 700;
+    color: rgb(119, 119, 119);
+}
+
+
+.button-21 {
+    align-items: center;
+    appearance: none;
+    background-color: #38ab90;
+    background-image: linear-gradient(1deg, #38ab90, #38ab90 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd, sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 10px 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s, background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.button-21:active,
+.button-21:focus {
+    outline: none;
+}
+
+.button-21:hover {
+    background-position: -20px -20px;
+    background-image: linear-gradient(1deg, #74afa0, #38ab90 99%);
+    transition-duration: 0.86s;
+}
+
+.button-21:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+.button-22 {
+    align-items: center;
+    appearance: none;
+    background-color: #6d1cf9;
+    background-image: linear-gradient(1deg, #6d1cf9, #6d1cf9 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd, sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 10px 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s, background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.button-22:active,
+.button-22:focus {
+    outline: none;
+}
+
+.button-22:hover {
+    background-position: -20px -20px;
+    background-image: linear-gradient(1deg, #bda5e7, #6d1cf9 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    transition-duration: 0.86s;
+}
+
+.button-22:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+.para1 {
+    line-height: 2;
+    padding-bottom: 30px;
+    color: rgb(101, 101, 101);
+}
+
+.pc {
+    padding: 60px;
+    height: 600px;
+    
+}
+.text{
+    font-family: 'ubuntu', sans-serif;
+    padding-top: 70px;
+    padding-left: 80px;
+    padding-right: 40px;
+    color: rgb(87, 87, 87);
+}
+.patanahi{
+    font-family: 'ubuntu', sans-serif;
+    color: rgb(99, 99, 99);
+    padding: 20px;
+}
+.devices{
+   
+    height: 650px;
+    padding-top: 30px ;
+    padding-bottom: 50px;
+}
+.row{
+    --bs-gutter-x: 0 !important;
+}
+
+#footer{
+    display: flex;
+    background-color: rgb(185, 186, 189);
+    height:150px;
+    padding: 50px;
+    flex-direction: row;
+}
+.image{
+    width:25%;
+}
+.image > img{
+    height:50px;
+}
+.link{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.ilink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.ilink > p{
+    width: 17%;
+    font-family: 'ubuntu', sans-serif;
+}
+.icons{
+    margin-top: 15px;
+    padding-left: 5vw;
+    width:25%;
+    bottom:25%;
+}
+.icons > img{
+    padding: 5px;
+}
+.img1{
+    padding: 15px;
+}
+
+
+.logoo{
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bottom{
+    padding-top: 50px;
+}
