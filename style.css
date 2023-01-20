@@ -167,9 +167,10 @@ h3{
 
 #footer{
     display: flex;
-    background-color: rgb(185, 186, 189);
-    height:150px;
+    background-color: rgb(234, 234, 234);
+    height:180px;
     padding: 50px;
+    bottom: 0;
     flex-direction: row;
 }
 .image{
@@ -195,6 +196,8 @@ h3{
     font-family: 'ubuntu', sans-serif;
 }
 .icons{
+    display: flex;
+    flex-direction: row;
     margin-top: 15px;
     padding-left: 5vw;
     width:25%;
@@ -202,11 +205,9 @@ h3{
 }
 .icons > img{
     padding: 5px;
+    max-width: 3vw;
+    max-height: 3vw;
 }
-.img1{
-    padding: 15px;
-}
-
 
 .logoo{
     padding-left: 11%;
